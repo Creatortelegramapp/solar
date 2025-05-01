@@ -1,0 +1,157 @@
+.advantages-section {
+    width: 100%;
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+    background-image: url('https://themesfamily.com/tm/khaliq/assets/img/slider/3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.advantages-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.advantages-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Advantage Cards */
+.advantage-card-container {
+    width: 350px;
+    height: 480px;
+    transition: all 0.4s ease;
+    box-sizing: border-box;
+}
+
+.advantage-card-container.hovered {
+    width: 370px;
+}
+
+.advantage-card-container.shrunk {
+    width: 320px;
+}
+
+.advantage-card-inner {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    transition: 0.6s all ease-in-out;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: none;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.advantage-card-inner.hovered {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Images */
+.advantage-card-img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+/* Titles */
+.advantage-card-title {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Description */
+.advantage-card-description {
+    color: #666;
+    font-size: 13px;
+    line-height: 1.5;
+    overflow-y: auto;
+    max-height: 150px;
+    padding-right: 5px;
+}
+
+/* ======== RESPONSIVE ======== */
+@media (max-width: 1024px) {
+    .advantages-list {
+        gap: 16px;
+    }
+
+    .advantages-title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .advantages-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantages-title {
+        font-size: 20px;
+    }
+
+    /* Mobile Cards */
+    .advantage-card-container {
+        width: 80%;
+        height: auto;
+    }
+
+    .advantage-card-container.hovered,
+    .advantage-card-container.shrunk {
+        width: 80%;
+    }
+
+    .advantage-card-inner {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* ավելի գեղեցիկ ստանդարտ ստվեր */
+        background-color: #fff;
+        transition: none;
+        cursor: default;
+    }
+
+    .advantage-card-inner.hovered {
+        background-color: #fff; /* hover-ով գույն չի փոխվում */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .advantage-card-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .advantage-card-title {
+        font-size: 16px;
+    }
+
+    .advantage-card-description {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .advantages-title {
+        font-size: 18px;
+    }
+
+    .advantage-card-container {
+        width: 90%;
+    }
+}
