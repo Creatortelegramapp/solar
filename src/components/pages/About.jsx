@@ -7,6 +7,8 @@ function About() {
         <div className="About">
             <div className="About-header">
                 ՄԵր Մասին
+
+                <h1>base url is - {BASE_URL}</h1>
             </div>
             <div className="About-main">
 
