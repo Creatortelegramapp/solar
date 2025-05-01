@@ -5,11 +5,11 @@ const UpcomingEvents = () => {
         <div className="upcoming-events">
             <div className="upcoming-events-left">
                 <video className="upcoming-events-video" loop autoPlay muted>
-                    <source src="src/images/gifs/0dram.mp4" type="video/mp4" />
+                    <source src="./images/gifs/0dram.mp4" type="video/mp4" />
                 </video>
             </div>
             <div className="upcoming-events-right">
-                <img className="upcoming-events-img" src="src/images/araqel.jpg" alt="Event" />
+                <img className="upcoming-events-img" src="./images/araqel.jpg" alt="Event" />
             </div>
         </div>
     );

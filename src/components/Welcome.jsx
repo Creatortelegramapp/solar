@@ -19,8 +19,8 @@ const WelcomeSection = () => {
                 </div>
                 <div className="welcome-right-video" >
                     <video className="welcome-video" loop autoPlay muted>
-                        <source src="src/images/gifs/gif1.mp4" type="video/mp4" />
-                        <source src="src/images/gifs/gif1.mp4" type="video/ogg" />
+                        <source src="./images/gifs/gif1.mp4" type="video/mp4" />
+                        <source src="./images/gifs/gif1.mp4" type="video/ogg" />
                     </video>
                 </div>
                 <Button link={"/about"} text="Իմանալ ավելին" />
