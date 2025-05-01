@@ -19,7 +19,7 @@ const Banner = () => {
             style={{
                 width: "100%",
                 height: "80vh",
-                backgroundImage: "url(./images/sectionFon.jpg)",
+                backgroundImage: "url(/images/sectionFon.jpg)",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
