@@ -2,7 +2,7 @@
   "name": "solar",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://creatortelegramapp.github.io/solar",
+  "homepage": "https://creatortelegramapp.github.io",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
