@@ -37,6 +37,7 @@ const Hero = () => {
 
     return (
         <div className="hero-container">
+            <p>asd</p>
             <div className="hero-overlay background-overlay" />
             <div className="hero-content">
                 <div
