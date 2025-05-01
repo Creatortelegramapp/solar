@@ -37,7 +37,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url('./images/lamp.png');
+    background-image: url('.images/lamp.png');
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
@@ -93,7 +93,7 @@
     width: 80%;
     height: 80%;
     display: flex;
-    background-image: url('./images/welcome.jpg');
+    background-image: url('.images/welcome.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

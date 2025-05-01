@@ -3,14 +3,14 @@ import "../styles/hero.css";
 
 const slides = [
     {
-        image: "https://livedemo00.template-help.com/landing_58501/images/home-2-1586x925.jpg",
+        image: "https://livedemo00.template-help.com/landing_58501images/home-2-1586x925.jpg",
         title: "Որակյալ արևային էներգիա՝ հասանելի գներով",
         subtitle: "Մենք տրամադրում ենք անվճար խորհրդատվություն, չափագրում, նախագծում և տեղադրում՝ ապահովելով ամբողջական սպասարկում մեկ վայրում։",
         buttonText: "Պատվիրել հիմա",
         buttonLink: "#order",
     },
     {
-        image: "/images/solar1.jpg",
+        image: "images/solar1.jpg",
         title: "0% Տոկոսադրույք՝ ՀՀ ողջ տարածքում",
         subtitle: "",
         buttonText: "Սկսեք հիմա՝ 0% ապառիկ",
