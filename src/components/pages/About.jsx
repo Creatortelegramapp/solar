@@ -7,8 +7,6 @@ function About() {
         <div className="About">
             <div className="About-header">
                 ՄԵր Մասին
-
-                <h1>base url is - {BASE_URL}  ????</h1>
             </div>
             <div className="About-main">
 
@@ -33,14 +31,14 @@ function About() {
                         </p>
                     </div>
                     <div className="About-main-img">
-                        <img src="/images/anoutImg2.jpg" alt=""/>
+                        <img src={BASE_URL + "/images/anoutImg2.jpg"} alt=""/>
                     </div>
 
                 </div>
                 <div className="About-content-two About-content">
 
                     <div className="About-main-img">
-                        <img src="/images/anoutImg3.jpg" alt=""/>
+                        <img src={BASE_URL + "/images/anoutImg3.jpg"} alt=""/>
                     </div>
                     <div className="About-main-info">
                         <p>
@@ -62,7 +60,7 @@ function About() {
                         </p>
                     </div>
                     <div className="About-main-img">
-                        <img src="/images/anoutImg4.jpg" alt=""/>
+                        <img src={BASE_URL + "/images/anoutImg4.jpg"} alt=""/>
                     </div>
 
                 </div>

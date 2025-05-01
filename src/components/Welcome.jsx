@@ -1,5 +1,8 @@
 import "../styles/WelcomeSection.css";
 import Button from "../components/Button";
+
+const BASE_URL = import.meta.env.BASE_URL;
+
 const WelcomeSection = () => {
     return (
         <div className="welcome-section">
@@ -19,8 +22,8 @@ const WelcomeSection = () => {
                 </div>
                 <div className="welcome-right-video" >
                     <video className="welcome-video" loop autoPlay muted>
-                        <source src="/images/gifs/gif1.mp4" type="video/mp4" />
-                        <source src="/images/gifs/gif1.mp4" type="video/ogg" />
+                        <source src={BASE_URL + "/images/gifs/gif1.mp4"} type="video/mp4" />
+                        <source src={BASE_URL + "/images/gifs/gif1.mp4"} type="video/ogg" />
                     </video>
                 </div>
                 <Button link={"/about"} text="Իմանալ ավելին" />

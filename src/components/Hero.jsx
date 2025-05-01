@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "../styles/hero.css";
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 const slides = [
     {
         image: "https://livedemo00.template-help.com/landing_58501images/home-2-1586x925.jpg",
@@ -10,7 +12,7 @@ const slides = [
         buttonLink: "#order",
     },
     {
-        image: "/images/solar1.jpg",
+        image: `${BASE_URL}/images/solar1.jpg`,
         title: "0% Տոկոսադրույք՝ ՀՀ ողջ տարածքում",
         subtitle: "",
         buttonText: "Սկսեք հիմա՝ 0% ապառիկ",
