@@ -1,5 +1,7 @@
 import "../../styles/About.css"
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 function About() {
     return (
         <div className="About">
@@ -10,7 +12,7 @@ function About() {
 
                 <div className="About-content-one About-content">
                     <div className="About-main-img">
-                        <img src="/images/anoutImg1.jpg" alt=""/>
+                        <img src={BASE_URL + "images/anoutImg1.jpg"} alt=""/>
                     </div>
                     <div className="About-main-info">
                         <p>AG Solar-ը արևային էներգիայի ոլորտում առաջատար ընկերություն է, որն առաջարկում է բարձր
