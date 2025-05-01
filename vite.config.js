@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig(({ command }) => ({
-  base: '/',   // ①
+  base: command === 'build' ? '/solar/' : '/',   // ①
   plugins: [react()]
 }))
