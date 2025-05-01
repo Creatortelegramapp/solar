@@ -13,7 +13,7 @@ const slides = [
     },
     {
         image: `${BASE_URL}/images/solar1.jpg`,
-        title: "0% Տոկոսադրույք՝ ՀՀ ողջ տարածքում123",
+        title: "0% Տոկոսադրույք՝ ՀՀ ողջ տարածքում",
         subtitle: "",
         buttonText: "Սկսեք հիմա՝ 0% ապառիկ",
         buttonLink: "#start-now",
