@@ -10,7 +10,7 @@ const slides = [
         buttonLink: "#order",
     },
     {
-        image: "images/solar1.jpg",
+        image: "/images/solar1.jpg",
         title: "0% Տոկոսադրույք՝ ՀՀ ողջ տարածքում",
         subtitle: "",
         buttonText: "Սկսեք հիմա՝ 0% ապառիկ",
